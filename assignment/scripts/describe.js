@@ -147,11 +147,19 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// Fix: colorOne should be set to 'blue', per the instructions.
+// Solution: let colorOne = 'blue';
 let colorOne = 'red';
+
+// Fix: colorTwo should be set to 'red', per the instructions.
+// Solution: let colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  // Fix: colorTwo is not set to 'purple'.
+  // Should be colorOne + colorTwo = 'purple';
   colorOne = 'purple';
 }
 */
@@ -162,8 +170,12 @@ if (mix === true) {
 
 /*
 let temp = 40;
+//Fix: Variable should be used instead of constant.
+//Solution: let time = 4;
 const time = 4;
 
+//Fix: The wrong compound conditional is being used.
+//Solution: if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -177,8 +189,15 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//Fix: Instructions listed out condition differently.
+//Solution: if(age >= minAge) {
 if(minAge <= age) {
+  //Fix: The console should log 'enter' if this is true
+  //Solution: console.log('enter');
   console.log('no entry');
+
+  //Fix: This condition was never given in the instructions.
+  //Solution: Remove the else block from this conditional statement.
 } else {
   console.log('enter');
 }
