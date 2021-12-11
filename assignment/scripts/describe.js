@@ -88,7 +88,7 @@ console.log(secret)
 // The final condition will only run if the first three conditions are not met. In this instance, the console
 // will log the message: 'How about the weather?'
 
-// Based on the value of each variable, the console will log the message: 'Welcome to prime!', because
+// Based on the value of each variable, the console will log the message: 'Welcome to Prime!', because
 // the variable 'age' is not less than 30, the variable 'zip' is not greater than 80000, and the variable 'isStudent'
 // is true.
 
@@ -170,8 +170,6 @@ if (mix === true) {
 
 /*
 let temp = 40;
-//Fix: Variable should be used instead of constant.
-//Solution: let time = 4;
 const time = 4;
 
 //Fix: The wrong compound conditional is being used.
